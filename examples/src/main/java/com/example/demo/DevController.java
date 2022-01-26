@@ -44,6 +44,4 @@ public class DevController {
     public void starRating(@RequestBody RatingDto ratingDto) {
         log.info(ratingDto.toString());
     }
-
-
 }
